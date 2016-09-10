@@ -1,0 +1,16 @@
+1 mkdir hore
+2 cd hore
+3 mkdir moooo 
+4 touch coba_dong.txt
+5 rmdir moooo 
+6 ls -al
+7 echo "buat tahu isinya"
+8 cat > tos.txt 
+9 nama 
+10 saya 
+11 bedjo 
+12 grep ^b tos.txt
+13 echo "grep ^b buat cari yang depannya dimulai dengan s"
+14 grep a$ tos.txt
+15 echo "grep a$ cari yg huruf belakangnya a"
+16 history
