@@ -1,0 +1,25 @@
+1 mkdir nyoba
+2 cd nyoba
+3 touch hehehe.txt
+4 cat hehehe.txt
+5 hore
+6 saya
+7 masuk
+8 ke
+9 txt
+10 cat hehehe.txt
+11 hore
+12 saya
+13 masuk
+14 ke
+15 txt
+16 cd ..
+17 rm nyoba
+18 echo "tidak bisa karena nyoba adalah direktori"
+19 rmdir nyoba
+20 echo "tidak bisa karena nyoba tidak kosong"
+21 rmdir -rf nyoba
+22 echo "-rf buat force delete"
+23 echo "tidak bisa karena invalid option"
+24 rm -rf nyoba
+25 echo "sudah hilang folder nyoba"
