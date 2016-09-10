@@ -23,3 +23,4 @@
 23 echo "tidak bisa karena invalid option"
 24 rm -rf nyoba
 25 echo "sudah hilang folder nyoba"
+26 history
