@@ -1,0 +1,18 @@
+1 nano yeye.txt
+2 satu
+3 dua
+4 tiga
+5 dua
+6 nol
+7 awk ' /'dua'/{print $0}' yeye.txt
+8 echo "print dua lebih dari 0 = berhasil krn dua nya ada dua"
+9 awk ' /'dua'/{print $1}' yeye.txt
+10 echo "print dua lebih dari 1 = berhasil krn dua nya ada dua"
+11 awk ' /'dua'/{print $2}' yeye.txt
+12 echo "print dua lebih dari 2 = tidak berhasil krn tepat sama dengan 2"
+13 awk ' /'dua'/{print $3}' yeye.txt
+14 awk ' /'dua'/{print $4}' yeye.txt
+15 echo "print dua lebih dari 3 = tidak berhasil krn jumlah lebih besar dari sumber"
+16 ls -al
+17 rm yeye.txt
+18 history
