@@ -1,0 +1,22 @@
+1 cat > hore.txt
+2 ini
+3 catatan
+4 saya
+5 26414052
+6 cat hore.txt
+7 string a hore.txt
+8 echo "not found krn syntax error"
+9 strings a hore.txt
+10 echo "a not found : no such file"
+11 man strings
+12 strings -n 1 hore.txt
+13 strings -n 2 hore.txt
+14 strings -n 3 hore.txt
+15 strings -n 4 hore.txt
+16 echo "kalo 1-3 bisa tampil, kalo 4 menghilangkan baris pertama"
+17 strings -n 5 hore.txt
+18 echo "kalo 5 menghilangkan baris pertama & kedua"
+19 strings -n 6 hore.txt
+20 strings -n 7 hore.txt
+21 echo "kalo diatas 6 menghilangkan semua baris"
+22h history
