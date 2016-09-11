@@ -19,4 +19,4 @@
 19 strings -n 6 hore.txt
 20 strings -n 7 hore.txt
 21 echo "kalo diatas 6 menghilangkan semua baris"
-22h history
+22 history
