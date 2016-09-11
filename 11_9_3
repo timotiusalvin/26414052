@@ -1,0 +1,20 @@
+1 mkdir cobatos
+2 cd cobatos
+3 cat > ngetest
+4 ini
+5 file
+6 baru
+7 saya
+8 zip cobangezip.zip ngetest
+9 echo "zip namarar file"
+10 echo "buat ngerar"
+11 bzip2 cobazip.zip test test1
+12 echo "error krn file tidak ada"
+13 bzip2 cobangezip.zip ngetest
+14 echo "file diatas berubah ekstensi atau bertambah dengan .bz2"
+15 rm ngetest.bz2
+16 rm cobangezip.zip.bz2
+17 ls -al
+18 cd ..
+19 rm -rf cobatos
+20 history
