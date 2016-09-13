@@ -1,0 +1,15 @@
+1 tail --help
+2 cat > car
+3 toyota
+4 nissan
+5 mitsubishi
+6 porche
+7 nissan
+8 lamborghini
+9 tail -f car 6
+10 echo "cannot open `6' for reading: no such file or directory"
+11 tail car -n 6
+12 echo "show last 6 lines of car or document"
+13 tail car -n 1
+14 echo "show last 1 line of car or document"
+15 history
