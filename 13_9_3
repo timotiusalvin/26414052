@@ -1,0 +1,17 @@
+1 echo "learn to ask help"
+2 echo "1. using whatis"
+3 whatis ls
+4 echo "ls(1)   - list directory contents
+5 echo "2.using --help"
+6 wget --help
+7 echo "masih tidak jelas karena panjang"
+8 echo "3.using man or manual"
+9 man intro
+10 echo "manual atau dasar linux"
+11 echo "4.using info"
+12 info tar
+13 echo "To view these, you’ll have to use the info command instead of the man command"
+14 echo "5.using apropos"
+15 apropos download
+16 echo "The apropos command searches for man pages that contain a phrase"
+17 history
