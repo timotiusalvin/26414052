@@ -1,0 +1,10 @@
+1 ipconfig
+2 echo "error not found"
+3 sudo ipconfig
+4 echo "not sudoers file."
+5 date
+6 ps
+7 ps --help
+8 ps -aux
+9 echo "keluar semua data. entah buat apa"
+10 history
