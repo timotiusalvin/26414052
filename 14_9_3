@@ -1,0 +1,20 @@
+1 cd coba_tos
+2 echo "Belajar fungsi echo"
+3 echo "halo ini belajar tos"
+4 echo "ouput:halo ini belajar tos"
+5 x=2
+6 echo Variable X = $x
+7 echo "output: Variable x = 2"
+8 echo -e "hello \bthis \bis \btos"
+9 echo "output: hellothisistos"
+10 echo -e "hello \nthis \nis \ntos"
+11 echo "output: "
+12 echo "hello"
+13 echo "this"
+14 echo "is"
+15 echo "tos"
+16 echo -e "hello \tthis \tis \ttos"
+17 echo "output: hello  this    is    tos"
+18 cd ..
+19 rm -rf coba_tos
+20 history
