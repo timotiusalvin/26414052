@@ -1,0 +1,24 @@
+1 cd coba_tos
+2 echo "nyoba sed"
+3 sed man
+4 echo "error try --help"
+5 sed --help
+6 cat > file.txt
+7 budi is a good leader. budi study at petra.
+8 learning informatics.
+9 budibude is twin.
+10 sed 's/budi/bedjo/' file.txt
+11 echo " 's/ kata awal / kata yg diganti/' "
+12 echo "cuman dpn aja diganti dengan bedjo. kl ketemu budi lagi dibaris yg sama ga diganti"
+13 echo "perbaris"
+14 sed 's/budi/bedjo/2' file.txt
+15 echo "mengganti budi yang kedua per baris dengan bedjo"
+16 sed 's/budi/bedjo/g' file.txt
+17 echo "mengganti setiap budi per baris dengan bedjo"
+18 sed 's/budi/bedjo/3g' file.txt
+19 echo "mengganti budi ketiga per baris dengan bedjo"
+20 sed 's/budi/{kita}/' file.txt
+21 echo "mengganti budi dengan {kita} hanya yg pertama"
+22 sed 's/\(budi\)/\1\1/' file.txt
+23 echo "menambah kata budi di baris pertama, dan sekali. setelahnya 2 kali ,dst"
+24 history
