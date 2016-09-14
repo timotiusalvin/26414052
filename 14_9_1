@@ -12,4 +12,5 @@
 12 echo "auto generate 10 hingga 100 diberi interval 2"
 13 seq -f "kelas tos %2g" 5
 13 echo "auto generate kelas tos 1 hingga 5 karena dibelakang batasnya 5"
-14 history
+14 cd ..
+15 history
