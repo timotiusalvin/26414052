@@ -1,0 +1,15 @@
+1 echo "lanjutan belajar sed mode"
+2 cat > hore.txt
+3 budi is a good leader. budi study at petra.
+4 learning informatics technology
+5 budibude is twin
+6 grep 'bude' file.txt
+7 sed -n '/bude/ p' file.txt
+8 echo "sama, karena tujuannya menyamakan hasil grep dan sed"
+9 sed '/bude/ a "ketemu"' hore.txt
+10 echo "memberikan baris baru dengan kata 'ketemu' jika ketemu kata bude dan tidak mengubah kata bude"
+11 sed '/budi/ c "diubah"' hore.txt
+12 echo "jika ketemu kata budi, diganti seluruh baris dengan kata 'diubah'"
+13 sed 'y/le/TE/' hore.txt
+14 echo "jika ketemu huruf l,e,le,akan diganti T,E,TE."
+15 history
