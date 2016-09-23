@@ -1,0 +1,18 @@
+1 cd D:/
+2 cd 'Folder Kuliah'
+3 cd tos
+4  cd 26414052
+5 git pull
+6 echo "sukses update dari github"
+7 awk 'BEGIN { print "Here is a single \
+quote <'\''>" }'
+8 echo "print Here is a single quote <'>"
+9 awk 'BEGIN { for (i = 1; i <= 7; i++)
+print int(101 * rand()) }'
+10 echo "print 7 angka random dari 0-100"
+11 awk -F: '{ print $1 }' /etc/passwd | sort
+12 echo "error for reading"
+13 echo aaaabcd | awk '{ sub(/a+/, \
+"<A>"); print }'
+14 echo "output : <A>bcd"
+15 history
