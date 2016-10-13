@@ -1,0 +1,12 @@
+1  cat >> hore.txt
+2  paste --help
+3  paste -d " " -f1 hore.txt
+4  echo "paste kata ke 1"
+5  paste -d " " -f2 hore.txt
+6  echo "paste kata ke 2"
+7  paste -d " " -f3 hore.txt
+8  echo "paste kata ke 3"
+9  paste -d " " -f4 hore.txt
+10  echo "paste kata ke 4"
+11  echo "paste seterusnya"
+12  history
