@@ -1,0 +1,16 @@
+1 echo "lanjutan belajar sed mode"
+2 cat > hore.txt
+3 budi is a good leader. budi study at petra.
+4 learning informatics technology
+5 budibude is twin
+6 sed '3 s/budi/bude/' hore.txt
+7 echo "mencari budi di baris ketiga. jika ketemu akan diganti dengan bude."
+8 sed '1,3 s/budi/budee/' hore.txt
+9 echo "mencari budi di baris kesatu dan ketiga. jika ketemu akan diganti dengan budee."
+10 sed '/budi/ s/bude/tos/' hore.txt
+11 echo "jika ketemu bude,akan diganti tos"
+12 sed '2 d' hore.txt
+13 echo "delete baris kedua"
+14 sed 'p' hore.txt
+15 echo "menduplikasi tiap baris 2 kali"
+16 history
