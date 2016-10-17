@@ -1,0 +1,16 @@
+1 mkdir coba_tos
+2 cd coba_tos
+3 echo "nyoba seq"
+4 seq man
+5 echo "error, disuruh coba --help"
+6 seq --help
+7 seq 1-10
+8 echo "error, invalid float, coba '-' dihilangkan"
+9 seq 1 10
+10 echo "auto generate kebawah 1 hingga 10"
+11 seq 10 2 100
+12 echo "auto generate 10 hingga 100 diberi interval 2"
+13 seq -f "kelas tos %2g" 5
+13 echo "auto generate kelas tos 1 hingga 5 karena dibelakang batasnya 5"
+14 cd ..
+15 history
