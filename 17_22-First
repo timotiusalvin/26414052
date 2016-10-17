@@ -1,0 +1,16 @@
+1 echo "lanjutan belajar sed"
+2 cat > hore.txt
+3 budi is a good leader. budi study at petra.
+4 learning informatics technology
+5 budibude is twin
+6 sed 's/\(budi\)/\1\1/' hore.txt
+7 echo "menambahkan kata 'budi' jika bertemu budi"
+8 sed 's/\(budi\)\(bude\)/\2\1/' hore.txt
+9 echo "budi sama bude ditukar jika ketemu satu baris"
+10 sed 's/^\(.\)\(.\)\(.\)/\3\2\1/' hore.txt
+11 echo "mengacak kata yang berada didepan baris masing-masing"
+12 sed 's/budi/bude/p' hore.txt
+13 echo "mencari budi didepan kata per baris. jika ketemu akan diganti dengan bude. dan 1 baris diprint 2 kali"
+14 sed -n 's/budi/bude/p' hore.txt
+15 echo "mencari budi didepan kata per baris. jika ketemu akan diganti dengan bude."
+16 history
