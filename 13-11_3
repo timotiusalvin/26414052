@@ -1,0 +1,12 @@
+1  cat >> hore.txt
+2  cut --help
+3  cut -d " " -f1 hore.txt
+4  echo "cut kata ke 1"
+5  cut -d " " -f2 hore.txt
+6  echo "cut kata ke 2"
+7  cut -d " " -f3 hore.txt
+8  echo "cut kata ke 3"
+9  cut -d " " -f4 hore.txt
+10  echo "cut kata ke 4"
+11  echo "dan seterusnya"
+12  history
