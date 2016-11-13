@@ -1,0 +1,10 @@
+1  ls -al
+2  cd ..
+3  ls -al
+4  fing --help
+5  find --help
+6  find -iname "test.txt" 
+7  find ~ -empty 
+8  awk '{print $2,$3;)' test.txt
+9  awk '{print $2,$3;}' test.txt 
+10  history
